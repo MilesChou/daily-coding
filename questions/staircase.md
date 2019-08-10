@@ -18,3 +18,4 @@ print solution(5)
 ## 解答
 
 * [Elixir](/src/elixir/staircase.exs)
+* [Node](/src/node/staircase.js)
