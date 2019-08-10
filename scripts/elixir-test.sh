@@ -3,7 +3,7 @@
 set -e
 
 # cd to root
-if [ -e ./src/elixir/test.sh ]; then
+if [ -e ./scripts/elixir-test.sh ]; then
     cd src/elixir
 fi
 

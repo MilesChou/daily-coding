@@ -3,7 +3,7 @@
 set -e
 
 # cd to root
-if [ -e ./src/node/test.sh ]; then
+if [ -e ./scripts/node-test.sh ]; then
     cd src/node
 fi
 
