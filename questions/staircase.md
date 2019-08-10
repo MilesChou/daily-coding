@@ -18,4 +18,5 @@ print solution(5)
 ## 解答
 
 * [Elixir](/src/elixir/staircase.exs)
+* [Lua](/src/lua/staircase.lua)
 * [Node](/src/node/staircase.js)
