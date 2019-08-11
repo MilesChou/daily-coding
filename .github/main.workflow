@@ -2,6 +2,7 @@ workflow "Test" {
   on = "push"
   resolves = [
     "Elixir Test",
+    "Lua Test",
     "Node Test",
   ]
 }
@@ -9,6 +10,11 @@ workflow "Test" {
 action "Elixir Test" {
   uses = "MilesChou/elixir-action@master"
   args = "sh ./scripts/elixir-test.sh"
+}
+
+action "Lua Test" {
+  uses = "docker://mileschou/lua:alpine"
+  args = "sh ./scripts/lua-test.sh"
 }
 
 action "Node Test" {
