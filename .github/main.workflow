@@ -4,6 +4,7 @@ workflow "Test" {
     "Elixir Test",
     "Lua Test",
     "Node Test",
+    "PHP Test",
   ]
 }
 
@@ -20,4 +21,9 @@ action "Lua Test" {
 action "Node Test" {
   uses = "docker://node:alpine"
   args = "sh ./scripts/node-test.sh"
+}
+
+action "PHP Test" {
+  uses = "docker://php:alpine"
+  args = "sh ./scripts/php-test.sh"
 }
