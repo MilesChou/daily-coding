@@ -1,0 +1,13 @@
+name: Lua CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run Tests
+      uses: docker://mileschou/lua:alpine
+      with:
+        args: sh ./scripts/lua-test.sh

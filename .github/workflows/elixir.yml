@@ -1,0 +1,13 @@
+name: Elixir CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run Tests
+      uses: MilesChou/elixir-action@master
+      with:
+        args: sh ./scripts/elixir-test.sh

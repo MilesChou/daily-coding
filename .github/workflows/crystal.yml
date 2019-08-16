@@ -1,0 +1,14 @@
+name: Crystal CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run tests
+      uses: docker://crystallang/crystal
+      with:
+        args: sh ./scripts/crystal-test.sh
