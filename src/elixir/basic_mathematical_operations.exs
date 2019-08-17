@@ -13,9 +13,9 @@ defmodule SimpleMathTest do
   import SimpleMath, only: [basic_op: 3]
 
   test "Given test cases work" do
-    assert basic_op("+", 4, 7) == 11
-    assert basic_op("-", 15, 18) == -3
-    assert basic_op("*", 5, 5) == 25
-    assert basic_op("/", 49, 7) == 7
+    assert 11 == basic_op("+", 4, 7)
+    assert -3 == basic_op("-", 15, 18)
+    assert 25 == basic_op("*", 5, 5)
+    assert 7 == basic_op("/", 49, 7)
   end
 end
