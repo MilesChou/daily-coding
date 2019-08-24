@@ -21,10 +21,14 @@ function solution(array $input)
 }
 
 // Example test
-assert([1, 1, 2, 2, 3, 3, 3], solution([3, 3, 2, 1, 3, 2, 1]));
+assert([1, 1, 2, 2, 3, 3, 3] === solution([3, 3, 2, 1, 3, 2, 1]));
 
 // Only one number test
-assert([1], solution([1]));
+assert([1] === solution([1]));
 
 // All same number test
-assert([1, 1, 1], solution([1, 1, 1]));
+assert([1, 1, 1] === solution([1, 1, 1]));
+
+echo 'OK' . PHP_EOL;
+
+exit(0);

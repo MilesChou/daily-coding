@@ -35,3 +35,7 @@ assert([1] === solution([1]));
 assert([0, 0, 0] === solution([0, 0, 0]));
 assert([1, 2, 3] === solution([1, 2, 3]));
 assert([1, 2, 3, 4] === solution([1, 2, 3, 4]));
+
+echo 'OK' . PHP_EOL;
+
+exit(0);
