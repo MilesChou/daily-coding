@@ -22,3 +22,4 @@ IO.inspect solution([0, 0, 0, 2, 0, 1, 3, 4, 0, 0])
 
 * [Elixir](/src/elixir/move_zero_to_backward.exs)
 * [Kotlin](/src/kotlin/move_zero_to_backward.kts)
+* [PHP](/src/php/move_zero_to_backward.php)
