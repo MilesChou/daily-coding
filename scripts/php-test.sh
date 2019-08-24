@@ -8,4 +8,5 @@ if [ -e ./scripts/php-test.sh ]; then
 fi
 
 php longest_substring.php
+php move_zero_to_backward.php
 php sort_fixed_number.php
