@@ -17,6 +17,7 @@ print solution(5)
 
 ## 解答
 
+* [Crystal](/src/crystal/src/staircase.cr)
 * [Elixir](/src/elixir/staircase.exs)
 * [Lua](/src/lua/staircase.lua)
 * [Node](/src/node/staircase.js)
