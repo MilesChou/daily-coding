@@ -11,4 +11,4 @@ SimpleMath.basic_op("/", 49, 7)    # Output: 7
 
 ## 解答
 
-* [Elixir](/src/php/basic_mathematical_operations.php)
+* [Elixir](/src/elixir/basic_mathematical_operations.exs)
