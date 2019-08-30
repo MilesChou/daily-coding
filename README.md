@@ -12,7 +12,7 @@
 
 （照英文名稱順序）
 
-* [基本數學運算器](questions/basic-mathematical-operations.md
+* [基本數學運算器](questions/basic-mathematical-operations.md)
 * [找出第幾大的元素](questions/k-th-largest-element.md)
 * [最長的子字串](questions/longest-substring.md))
 * [找出三數相乘最大的結果](questions/maximum-product-of-three.md)
