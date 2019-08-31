@@ -1,0 +1,13 @@
+name: Rust CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run Tests
+      uses: docker://rust:slim
+      with:
+        args: sh ./scripts/rust-test.sh
